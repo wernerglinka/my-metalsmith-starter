@@ -4,13 +4,13 @@
   </a>
 </p>
 <h1 align="center">
-  Metalsmith company starter
+  My Metalsmith starter
 </h1>
 
-Bootstrap your company website with this Metalsmith starter. This starter includes Markdown content and Nunjucks templating. Check out a [demo of this starter](https://metalsmith-company-starter.netlify.app/).
+Bootstrap your website with this Metalsmith starter. This starter includes Markdown content and Nunjucks templating.
 
 
-This starter is build in the style of a company marketing site. The components on this site are bare-bone interpretations of common information presentation patterns that can be found on many corporate websites.
+The components on this site are bare-bone interpretations of common information presentation patterns that can be found on many websites.
 
 The website behaves like a Single Page Application (SPA) with the help of [Barba.js](https://barba.js.org/).
 
@@ -27,7 +27,7 @@ Page sections are defined as a YAML object in the frontmatter. This approach len
     Clone the starter repository to create a new site.
 
     ```shell
-    git clone https://github.com/wernerglinka/metalsmith-company-starter.git new-site 
+    git clone https://github.com/wernerglinka/my-metalsmith-starter.git new-site 
     ```
 
 1.  **Start developing.**
