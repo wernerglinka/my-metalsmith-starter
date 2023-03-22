@@ -11,6 +11,7 @@ sections:
   - component: banner
     disabled: false
     inContainer: true
+    containerClass: ""
     marginTop: false
     marginBottom: true
     paddingTop: false
@@ -59,6 +60,7 @@ sections:
   - component: intro
     disabled: false
     inContainer: true
+    containerClass: ""
     marginTop: false
     marginBottom: false
     paddingTop: false
@@ -86,6 +88,7 @@ sections:
   - component: media
     disabled: false
     inContainer: true
+    containerClass: ""
     hasBackground: false
     bgColor: ""
     bgIsDark: false
@@ -136,6 +139,7 @@ sections:
   - component: media
     disabled: false
     inContainer: true
+    containerClass: ""
     hasBackground: false
     bgColor: ""
     bgIsDark: false
@@ -186,6 +190,7 @@ sections:
   - component: intro
     disabled: false
     inContainer: true
+    containerClass: ""
     marginTop: false
     marginBottom: true
     paddingTop: false
