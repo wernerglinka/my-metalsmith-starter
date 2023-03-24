@@ -5,10 +5,10 @@
     {% set source = siteMeta.imagePrefix ~ image.src %}
 
     {# get image source for LRIP #}
-    {% set lowResImagesrc = siteMeta.imagePrefix ~ "w_100,c_fill,g_auto,f_auto/" ~ image.src %}
+    {% set lowResImagesrc = siteMeta.site.imagePrefix ~ "w_100,c_fill,g_auto,f_auto/" ~ image.src %}
 
     <img class="low-res" src="{{ lowResImagesrc }}" alt="{{ image.alt }}"/>
-    <img class="high-res" src="" alt="{{ image.alt }}" data-prefix="{{ siteMeta.imagePrefix }}" data-source="{{ image.src }}"/>
+    <img class="high-res" src="" alt="{{ image.alt }}" data-prefix="{{ siteMeta.site.imagePrefix }}" data-source="{{ image.src }}"/>
   </div>
   <p class="caption">{{ image.caption }}</p>
 {% endmacro %}

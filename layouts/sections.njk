@@ -51,7 +51,7 @@
         {% if sectionId %} id="{{ sectionId }}" {% endif %}
         {% if sectionStyles %} style="{{ sectionStyles }}" {% endif %}
       >
-        {{ component(name, params, metadata) }}
+        {{ component(name, params, siteMeta) }}
       </section>
 
     {% endfor %}

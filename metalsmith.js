@@ -65,8 +65,8 @@ Metalsmith(__dirname)
 
   .use(
     metadata({
-      site: 'src/content/data/site.json',
-      nav: 'src/content/data/navigation.json'
+      'siteMeta.site': 'src/content/data/site.json',
+      'siteMeta.nav': 'src/content/data/navigation.json'
     })
   )
 
